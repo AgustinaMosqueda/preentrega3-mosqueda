@@ -1,0 +1,53 @@
+main{
+    h2{    text-align: center;
+        color: #C28964;
+        font-size: 20px;
+        font-family: 'Iceland', cursive;
+    }
+    h3{
+        text-align: center;
+        font-weight: 50;
+        color: #C0DBEA;
+        font-size: 12px;
+        font-family: 'Acme', sans-serif;
+        background-color: #91836A66;
+    }
+    .img2{
+        border-radius: 50%;
+        width: 25%;
+        height: 15rem;
+    }
+}
+fieldset{
+    font-family: 'Acme', sans-serif;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(5,1fr);
+    grid-template-areas: 
+    ".legend"
+    ".div1"
+    ".div2"
+    ".div3"
+    ".div4";
+}
+
+section{
+    display:grid;
+    width: 100%;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(1,1fr);
+    grid-template-areas: 
+    "diez once"
+    ;
+}
+
+.diez {
+    @include flex(row,left);
+    font-family: 'Acme', sans-serif;
+}
+
+.once {
+    @include flex(row,right);
+    font-family: 'Acme', sans-serif;
+}

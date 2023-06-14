@@ -1,0 +1,37 @@
+@media (min-width:1440px)
+{
+    main{
+        height: 700px;
+    }
+    .img2{
+        border-radius: 50%;
+        height: fit-content;
+    }
+    h2{
+        font-size: 60px;
+        background-color: #D9D9D966;
+        height: 80px;
+    }
+    fieldset{
+        width:100%;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    section{
+        width: 100%;
+    }
+    footer{
+        height: 250px;
+        width: 100%;
+    }
+    .img3{
+        height:150px;
+        width: 100px;
+    }
+    // .img4{
+    //     @extend .img3;
+    // }
+    // .img5{
+    //     @extend .img3;
+    // }
+}
